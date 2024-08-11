@@ -1,0 +1,26 @@
+/* COMPONENT */
+/* SEMESTER NUMBER */
+
+#semesterNo{
+    border: 1px solid black;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 450px;
+    margin-left: 255px;
+    margin-top: 25px;
+    border: none;
+}
+.semesterYear{
+    border: 1px solid red;
+    padding: 6px 16px;
+    border-radius: 2px;
+    background-color:#D9D9D9;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.currentYear{
+    background-color: #3D3D4E;
+}

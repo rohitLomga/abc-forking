@@ -1,0 +1,73 @@
+/* ADD PROGRAMS 1 */
+
+#tableDetails{
+    border: 1px solid black;
+    width: 1265px;
+    height: auto;
+    margin-left: 230px;
+    /* padding: 10px; */
+    margin-top: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    border: none;
+
+
+}
+
+
+#tableDetails table {
+    width: 1265px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+#tableDetails th, 
+#tableDetails td {
+    border: 1px solid #000;
+    border: none;
+
+}
+
+#tableDetails th {
+    font-weight: bold;
+    padding: 15px;
+}
+
+#tableDetails td {
+    vertical-align: middle;
+    padding: 7px;
+}
+
+#tableDetails tr:nth-child(even) {
+    background-color: #E6E6ED;
+}
+
+.eyeIcon{
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+#tableDetails th:nth-child(1),
+#tableDetails th:nth-child(2),
+#tableDetails th:nth-child(3),
+#tableDetails td:nth-child(1),
+#tableDetails td:nth-child(2),
+#tableDetails td:nth-child(3) {
+    text-align: left;
+}
+
+#tableDetails th:nth-child(n+4),
+#tableDetails td:nth-child(n+4) {
+    text-align: right;
+    text-align: center;
+}
+
+#tableDetails th:first-child,
+#tableDetails td:first-child{
+    text-align: center;
+}

@@ -1,0 +1,91 @@
+/* COURSE LAST THIRD PAGE */
+
+#categoriesTable, #humanitiesAndSocial {
+    width: 1265px;
+    /* margin: 0 auto;  */
+    margin-left: 230px;
+    border: 1px solid black;
+    margin-top: 20px;
+    box-shadow: 0 4px 13px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+#categoriesTable table,
+#humanitiesAndSocial table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#categoriesTable th,
+#categoriesTable td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000;
+    border: none;
+}
+
+#categoriesTable th:nth-child(1),
+#categoriesTable th:nth-child(2),
+#categoriesTable td:nth-child(1),
+#categoriesTable td:nth-child(2) {
+    text-align: left;
+}
+
+#categoriesTable th:last-child,
+#categoriesTable td:last-child {
+    text-align: right;
+}
+
+#categoriesTable th:nth-child(1),
+#categoriesTable td:nth-child(1) {
+    text-align: center;
+}
+#categoriesTable th:last-child,
+#categoriesTable td:last-child {
+    text-align: center; /* Center-align the last column */
+}
+
+#categoriesTable th:nth-child(2),
+#categoriesTable td:nth-child(2) {
+    padding-right: 100px;
+}
+
+#categoriesTable tr:nth-child(even) {
+    background-color: #E6E6ED;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+#humanitiesAndSocial th,
+#humanitiesAndSocial td {
+    padding: 10px;
+    border: 1px solid #000;
+    border: none;
+}
+
+#humanitiesAndSocial th:nth-child(1),
+#humanitiesAndSocial th:nth-child(2),
+#humanitiesAndSocial th:nth-child(3),
+#humanitiesAndSocial td:nth-child(1),
+#humanitiesAndSocial td:nth-child(2),
+#humanitiesAndSocial td:nth-child(3) {
+    text-align: left; 
+}
+
+#humanitiesAndSocial th:nth-child(n+4),
+#humanitiesAndSocial td:nth-child(n+4) {
+    text-align: right;
+    text-align: center;
+}
+#humanitiesAndSocial th:first-child,
+#humanitiesAndSocial td:first-child {
+    text-align: center;
+}
+
+#courseTitle{
+    padding-left: 23px;
+}
+
+#humanitiesAndSocial tr:nth-child(odd){
+    background-color: #E6E6ED;
+}

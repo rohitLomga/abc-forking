@@ -1,0 +1,58 @@
+#signInContainer{
+    border: 1px solid black;
+    width: 1140px;
+    height: 500px;
+    /* margin-left: 120px; */
+    margin: auto;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(219, 214, 202);
+    border: none;
+}
+.signInInput{
+    width: 300px;
+    padding: 10px;
+    margin: 5px 5px 5px 0;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+#logInBtn{
+    padding: 10px 70px 10px 70px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    /* word-spacing: 5px; */
+    cursor: pointer;
+    margin-left: 70px;
+}
+#forgotText{
+    font-size: 12px;
+    color: rgba(156, 146, 146, 0.767);
+    cursor: pointer;
+}
+#firstText{
+    margin-left: -50px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+#formDiv{
+    margin-left: -80px;
+}
+#studentImage{
+    margin-top: 110px;
+    margin-right: 70px;
+    width: 250px;
+    height: auto;
+}
+
+#three-person{
+    height: 150px;
+    width: auto;
+    position: absolute;
+    top: 490px;
+    left: 160px;
+}

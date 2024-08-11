@@ -1,0 +1,110 @@
+body{
+    font-family: 'comfortaa';
+}
+#main-coantainer{
+    border: 1px solid black;
+    width: 1140px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 195px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(219, 214, 202);
+    border: none;
+}
+
+#vertical-line{
+    border-left: 1px solid black;
+    /* border-color: red; */
+    height: 500px;
+    /* margin-left: 0px; */
+}
+#studentImage{
+    margin-top: 110px;
+    margin-right: 70px;
+    width: 250px;
+    height: auto;
+}
+
+#three-person{
+    height: 150px;
+    width: auto;
+    position: absolute;
+    top: 490px;
+    left: 160px;
+}
+
+#form-div{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    text-align: center;
+    
+}
+
+.input-field{
+    width: 300px;
+    padding: 10px 0px 10px 37px;
+    margin: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+select{
+    padding: 10px 72px 10px 8px;
+    margin: 5px 5px 0 5px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#text{
+    margin-top: 10px;
+    margin-left: -40px;
+}
+
+#terms{
+    margin-left: -295px;
+    cursor: pointer;
+}
+
+#termsText{
+    margin-top: -20px;
+    margin-right: -50px;
+}
+button{
+    padding: 10px 65px 10px 65px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    word-spacing: 5px;
+    cursor: pointer;
+}
+
+#building{
+    height: 27px;
+    position: absolute;
+    top: 190px;
+    left: 265px;
+}
+#emailImage{
+    height: 27px;
+    position: absolute;
+    top: 237px;
+    left: 265px;
+}
+#passwordImage{
+    height: 27px;
+    position: absolute;
+    top: 282px;
+    left: 262px;
+}
+#mobileImage{
+    height: 27px;
+    position: absolute;
+    top: 327px;
+    left: 264px;
+}
